@@ -1,0 +1,33 @@
+{
+  "original_tests": 17,
+  "integration_checks": 25,
+  "passed": [
+    "anonymous access blocked",
+    "original API also protected",
+    "real login",
+    "CSRF required",
+    "cross-site blocked",
+    "specialist mapping preserved",
+    "evidence saved",
+    "route linked to protocol",
+    "manual review tied to its protocol",
+    "no invented probability",
+    "negation creates no route",
+    "foreign patient gives 404",
+    "invalid DOCX rejected",
+    "multipart upload through auth layer",
+    "manual route correction saved",
+    "notification saved without false delivery",
+    "notification duplicate suppressed",
+    "invented slot rejected",
+    "booking persisted",
+    "duplicate booking blocked",
+    "booked route cannot send booking reminder",
+    "UI reflects persisted changes",
+    "89 corpus protocols imported",
+    "corpus import idempotent",
+    "logout revokes access"
+  ],
+  "database": "isolated SQLite",
+  "postgresql_tested": false
+}

@@ -1,0 +1,12 @@
+{
+  "endometrial_polyp": {"label": "Полип эндометрия", "organ": "Эндометрий"},
+  "uterine_fibroid": {"label": "Миома матки", "organ": "Матка"},
+  "gallbladder_stone": {"label": "Конкременты желчного пузыря", "organ": "Желчный пузырь"},
+  "gallbladder_polyp": {"label": "Полип желчного пузыря", "organ": "Желчный пузырь"},
+  "birads": {"label": "Категория BI-RADS", "organ": "Молочная железа"},
+  "thyroid_nodule": {"label": "Узел щитовидной железы", "organ": "Щитовидная железа"},
+  "prostate_hyperplasia": {"label": "Гиперплазия предстательной железы", "organ": "Предстательная железа"},
+  "varicose_veins": {"label": "Варикоз вен нижних конечностей", "organ": "Вены нижних конечностей"},
+  "arterial_atherosclerosis": {"label": "Атеросклероз артерий ног", "organ": "Артерии нижних конечностей"},
+  "venous_thrombosis": {"label": "Упоминание венозного тромбоза", "organ": "Вены нижних конечностей"}
+}

@@ -1,0 +1,140 @@
+{
+  "created_at": "2026-10-04T21:19:35.405381+00:00",
+  "split": "test",
+  "engine": "rules-nlp-0.1",
+  "code_sha256": "bd33b449b960d0950406b9241d4205411601d6ea78dcbb1ee95581300b3ccdb1",
+  "reference_status": "AI-authored draft; NOT medically validated; fixed test, not blind external validation",
+  "gold_sha256": "aeded8d137677f2c42523c73364a412b830e8ee8c6a40b29e43d0d1d48ee8a98",
+  "documents": 31,
+  "strict_facts": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "exact_document_accuracy": 1.0,
+  "route_accuracy": 1.0,
+  "route_correct": 31,
+  "evidence_validity": 1.0,
+  "no_scope_trigger_documents": 13,
+  "false_consultations_on_no_scope_trigger": 0,
+  "per_concept": {
+    "endometrial_polyp": {
+      "support": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "uterine_fibroid": {
+      "support": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "gallbladder_stone": {
+      "support": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "gallbladder_polyp": {
+      "support": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "birads": {
+      "support": 5,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "thyroid_nodule": {
+      "support": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "prostate_hyperplasia": {
+      "support": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "varicose_veins": {
+      "support": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "arterial_atherosclerosis": {
+      "support": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "venous_thrombosis": {
+      "support": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "decision_matrix": [
+    {
+      "expected": "manual_review",
+      "actual": "manual_review",
+      "count": 15
+    },
+    {
+      "expected": "no_supported_trigger",
+      "actual": "no_supported_trigger",
+      "count": 13
+    },
+    {
+      "expected": "consultation",
+      "actual": "consultation",
+      "count": 3
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Strict fact metric uses (concept, assertion, category, side); not exhaustive NER span scoring",
+    "Evidence validity checks literal provenance only, not semantic entailment",
+    "No ground-truth validation for lesion sizes, urgency, patient outcomes or economics",
+    "No-mention does not mean normal; rare classes and historical cases need more data",
+    "Templates may overlap between splits; related-patient independence not guaranteed"
+  ]
+}

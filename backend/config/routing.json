@@ -1,0 +1,43 @@
+{
+  "version": "demo-2026-10-04-v1",
+  "clinical_status": "demo_requires_medical_approval",
+  "rules": [
+    {
+      "id": "endometrial-polyp",
+      "concept": "endometrial_polyp",
+      "specialist_type": "Оперирующий гинеколог",
+      "next_step": "Консультация для определения дальнейшей тактики",
+      "deadline_days": 7
+    },
+    {
+      "id": "gallbladder-stone",
+      "concept": "gallbladder_stone",
+      "specialist_type": "Хирург",
+      "next_step": "Консультация для определения дальнейшей тактики",
+      "deadline_days": null
+    },
+    {
+      "id": "breast-birads",
+      "concept": "birads",
+      "categories": [
+        "3",
+        "4",
+        "4A",
+        "4B",
+        "4C",
+        "5"
+      ],
+      "specialist_type": "Маммолог / онколог",
+      "next_step": "Консультация для определения дальнейшей тактики",
+      "deadline_days": null
+    }
+  ],
+  "reminders_hours": [
+    24,
+    72,
+    168,
+    336,
+    720
+  ],
+  "notification_text": "В личном кабинете доступна информация о следующем шаге по результатам исследования. Вы можете выбрать время консультации."
+}

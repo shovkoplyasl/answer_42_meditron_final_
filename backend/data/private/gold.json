@@ -1,0 +1,2927 @@
+[
+  {
+    "id": "doc-001",
+    "split": "dev",
+    "text_sha256": "debb8ebdb99b756986da533c3976fd88e844e53cbbf066b0b4dd63b65df3f3fd",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "arterial_atherosclerosis",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 878,
+          "end": 933,
+          "quote": "стенозирующего атеросклероза артерий нижних конечностей"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-002",
+    "split": "test",
+    "text_sha256": "5aa4f451296d1209661e0a77749a80527b9e89fe1428a36c1cb75f949ebbc353",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "arterial_atherosclerosis",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1510,
+          "end": 1548,
+          "quote": "Данные за нестенозирующий атеросклероз"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "venous_thrombosis"
+    ],
+    "notes": "Отрицание значимых бляшек не отрицает явно указанного нестенозирующего атеросклероза."
+  },
+  {
+    "id": "doc-003",
+    "split": "dev",
+    "text_sha256": "8c46e196106c901596dfb8213b94ed8791b9a1aa0cc6f0379c06d397866ecdfd",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "arterial_atherosclerosis",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 3172,
+          "end": 3211,
+          "quote": "Атеросклероз сосудов нижних конечностей"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-004",
+    "split": "test",
+    "text_sha256": "02af964aa839e79691b142a84126191f695a7e8ab9e9cc95d5210b2463896ade",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "varicose_veins",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 2123,
+          "end": 2162,
+          "quote": "Варикозная трансформация хода левой БПВ"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-005",
+    "split": "dev",
+    "text_sha256": "2a57451baf7851b1b78eececa69a03baf4390946b01249e1caa030aa8c19aa1d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "varicose_veins",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 947,
+          "end": 977,
+          "quote": "Варикозная деформация притоков"
+        }
+      },
+      {
+        "concept": "venous_thrombosis",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 2016,
+          "end": 2046,
+          "quote": "признаков тромбоза не выявлено"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "arterial_atherosclerosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-006",
+    "split": "dev",
+    "text_sha256": "cfc1c99c1912f80bf0b0152991dd2e2f182ef62024bd7a73187e58f10113a1b8",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "arterial_atherosclerosis",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1115,
+          "end": 1181,
+          "quote": "гемодинамически значимого атеросклероза артерий нижних конечностей"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-007",
+    "split": "test",
+    "text_sha256": "abdbd5cef1c16f8ba14c919c3754c5e95aa9e263da69e4ab7c9fba655143abaa",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "varicose_veins",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1209,
+          "end": 1254,
+          "quote": "с варикозной трансформацией притоков и ствола"
+        }
+      },
+      {
+        "concept": "venous_thrombosis",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1256,
+          "end": 1356,
+          "quote": "Данных за тромбоз поверхностных и глубоких вен нижних конечностей на момент исследования не получено"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "arterial_atherosclerosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-008",
+    "split": "dev",
+    "text_sha256": "8b4594d46fbfd90e415ddfe6822a83fb6fb0be7e8c537edb255924c5846c2c9d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "varicose_veins",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 778,
+          "end": 846,
+          "quote": "Варикозное расширение вен нижних конечностей без язвы или воспаления"
+        }
+      },
+      {
+        "concept": "venous_thrombosis",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 233,
+          "end": 305,
+          "quote": "Данных за флеботромбоз и тромбофлебит на момент исследования не получено"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "arterial_atherosclerosis"
+    ],
+    "notes": "В тексте уже есть диагноз и план врача. Нельзя считать документ новым изолированным УЗИ без проверки текущего маршрута."
+  },
+  {
+    "id": "doc-009",
+    "split": "dev",
+    "text_sha256": "bddec76a3293f088561180670a7c5aae2a9b378c47d7dddcaffe9828d972177e",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "arterial_atherosclerosis",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 2268,
+          "end": 2343,
+          "quote": "стенозирующего атеросклероза магистральных артерий обеих нижних конечностей"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-010",
+    "split": "dev",
+    "text_sha256": "64f311d0c3f0e21a3c03f70172f51f7694ecea5ebba1b48a50b41c48f13c8126",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-011",
+    "split": "test",
+    "text_sha256": "be4470a7241e2eb7940c4043670154207ed0371e62a76bcb55f82f3beff08895",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 717,
+          "end": 740,
+          "quote": "УЗ признаки миомы матки"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-012",
+    "split": "dev",
+    "text_sha256": "c44b38e1e308b50a3a03d868e43f6ed6680a6fe2921c786bb598370b2fcd7632",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1179,
+          "end": 1212,
+          "quote": "миомы матки, кисты левого яичника"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-013",
+    "split": "test",
+    "text_sha256": "89c616d4e434f1b476ff8bfa64e9be575b58f18c15daeb903bebfb29ca2ddc34",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-014",
+    "split": "dev",
+    "text_sha256": "4abbf3d3c3d3425b320ea18e4a7012e4f86e2a8aeb0376007939ea87c2a00683",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 814,
+          "end": 849,
+          "quote": "Эхографические признаки миомы матки"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-015",
+    "split": "dev",
+    "text_sha256": "2f085d512111d9cb20dd6b8f3e854a1b8beaf27ca99213ccd3df93a028fd49fe",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1067,
+          "end": 1113,
+          "quote": "миомы матки малых размеров без признаков роста"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-016",
+    "split": "test",
+    "text_sha256": "b60331ece92649d6236fe91e58b52a58afc09b9727b270bebf8fed0243689f6a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-017",
+    "split": "dev",
+    "text_sha256": "bf18bd6e78d1874c0baeab78261931de2bcea4aad4832a28bda7ed1f3f6fb022",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 878,
+          "end": 923,
+          "quote": "Миома матки (без динамики от предыдущего узи)"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Варикоз малого таза вне области признака varicose_veins (только ноги). Миома текущая, без динамики."
+  },
+  {
+    "id": "doc-018",
+    "split": "dev",
+    "text_sha256": "e91644578430cc6fd8345ec30ef7b34534f0cdcb03a5705f83a104024ae8c148",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "endometrial_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1132,
+          "end": 1150,
+          "quote": "полипоз эндометрия"
+        }
+      },
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1152,
+          "end": 1192,
+          "quote": "миома матки, мультифолликулярные яичники"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Оперирующий гинеколог"
+    ],
+    "unmentioned_concepts": [
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-019",
+    "split": "test",
+    "text_sha256": "4c2b550fe9b0b1552d133524f0744bb2763f62c97d1656912fc5aa7391be184d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-020",
+    "split": "dev",
+    "text_sha256": "83fb80ad711a094dc2e1681aa39e6387e68b1e0adddeddb31178e7dc924fd9c0",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 862,
+          "end": 873,
+          "quote": "Миома матки"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-021",
+    "split": "dev",
+    "text_sha256": "483d0ded8551083afdd6b884bfe6ce0e62193ad743056ece6552909e519f40c6",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1544,
+          "end": 1568,
+          "quote": "многоузловой миомы матки"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-022",
+    "split": "test",
+    "text_sha256": "154f6b8d46e81b076658d4cf09e0b2f7c16965e0799a0db3cdde3744d6e65f2f",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1307,
+          "end": 1338,
+          "quote": "Миома матки в стадии кальциноза"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-023",
+    "split": "dev",
+    "text_sha256": "51ec6261da62c6af7be024e32d592cf8f19e824369a14daadd28704b4d809fb8",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 890,
+          "end": 915,
+          "quote": "миомы матки тип 5 по FIGO"
+        }
+      },
+      {
+        "concept": "endometrial_polyp",
+        "assertion": "uncertain",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1059,
+          "end": 1153,
+          "quote": "Железисто- фиброзный полип эндометрия. ВМК. Состояние после гистерорезектоскопии, удаления ВМК"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Полип указан в рекомендациях рядом с состоянием после гистерорезектоскопии. Текущая активность неоднозначна. Нужна экспертная проверка, автоматический маршрут запрещён."
+  },
+  {
+    "id": "doc-024",
+    "split": "dev",
+    "text_sha256": "e8f69138ddbf371205fbd535d44f1b39cd5678d2905108e9c3869427fd0ab7be",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1411,
+          "end": 1435,
+          "quote": "Миома матки. ВМС типично"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-025",
+    "split": "test",
+    "text_sha256": "e88cce2c4ec5194eac350c3bc57b81513f10e06668c6e457fe53fd81d82829aa",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "endometrial_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1280,
+          "end": 1309,
+          "quote": "УЗ-признаки полипа эндометрия"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Оперирующий гинеколог"
+    ],
+    "unmentioned_concepts": [
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Вопросительный знак относится к полипу шейки матки; полип эндометрия утверждается."
+  },
+  {
+    "id": "doc-026",
+    "split": "dev",
+    "text_sha256": "253fa07185c9035118b3180f4668b83a2b9ac63b195b03ff143c97c9672a3918",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-027",
+    "split": "dev",
+    "text_sha256": "bf8000a11a273fa6a0f77df014d849e9a23073a3be15e10cb97c11559b3f266c",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-028",
+    "split": "test",
+    "text_sha256": "bcc88fa1e004f76b60a4bf1ab265e83035561ffcda53caa73b25bfab78e8b116",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-029",
+    "split": "dev",
+    "text_sha256": "b2fc1d58f6fabe6f89ba7aa9580b84abe8a76eaf2d9a89533f11dd79b505bf4f",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-030",
+    "split": "dev",
+    "text_sha256": "4d2625e2ab1cfcbc6a84e2f49028fa81f14332ef7a25c177b755d21d49dc0e6a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-031",
+    "split": "test",
+    "text_sha256": "9c3ca18d48e691fead009ec6b384e5b6ae565a2eddbc2ee30c2efeda42e83253",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "uterine_fibroid",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 789,
+          "end": 832,
+          "quote": "интрамуральная миома малых размеров, FIGO 4"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Миомэктомия в анамнезе не отменяет текущую интрамуральную миому. Не приравнивать к субмукозной."
+  },
+  {
+    "id": "doc-032",
+    "split": "dev",
+    "text_sha256": "fc9697e5c1843c84ae6dd437b2e669de612f84e52a7363dd9bef38fd6c6ee861",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-033",
+    "split": "dev",
+    "text_sha256": "d6fa6d35f6d6b6cdfe3e201e179d3e94789c6f6e3e892b44250e1e0b51783d6c",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "endometrial_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 957,
+          "end": 987,
+          "quote": "патологии эндометрия ( полип )"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Оперирующий гинеколог"
+    ],
+    "unmentioned_concepts": [
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-034",
+    "split": "test",
+    "text_sha256": "6b7ae3570ae4b157f4ce3ae2babc9a27fc979d4117a3c0ae6bde4fd780227d67",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-035",
+    "split": "dev",
+    "text_sha256": "40760f31506dbb32e37c30abc27a2af0356364bad92841844b1e4b522f7051a5",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 930,
+          "end": 953,
+          "quote": "Конкременты не выявлены"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-036",
+    "split": "test",
+    "text_sha256": "da91c7f4991b0efc193a550940a0af69e5d0f0885ec9bb055598ae2982d6f4b2",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Холецистэктомия сама по себе не доказывает историю камней. Камни не размечены."
+  },
+  {
+    "id": "doc-037",
+    "split": "dev",
+    "text_sha256": "9b16c857b74ed72200323fe3f3a4709b212c01494a0d4f552b78296498c3d25c",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 649,
+          "end": 665,
+          "quote": "Конкременты: нет"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-038",
+    "split": "dev",
+    "text_sha256": "9d7f396056c1a12f1423d4003ddf74737037983a55240460cb9be544c13d3759",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-039",
+    "split": "test",
+    "text_sha256": "5a7bc8b6cc9dbcfd66fa3f761ab4fdb69ad408d1f9e80a4bc13cbc3fda21a74a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 642,
+          "end": 682,
+          "quote": "УЗ-признаки конкрементов желчного пузыря"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Хирург"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-040",
+    "split": "dev",
+    "text_sha256": "1b0410f45e32bb33e20ff12dbaeec8a66c62218d17b08c8a7681a26a3cf62031",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 552,
+          "end": 568,
+          "quote": "холецистолитиаза"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Хирург"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-041",
+    "split": "dev",
+    "text_sha256": "e62a66c3a416edbab8a482c67ebef9195d3f4d61c67c83745b71b881b01ac59d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-042",
+    "split": "test",
+    "text_sha256": "edfca76fbb7af5357a0e0d79221ebedb367c64da0c1ddb030bf32b4dab58e8ff",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 339,
+          "end": 374,
+          "quote": "Образование в желчном пузыре- полип"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-043",
+    "split": "dev",
+    "text_sha256": "c4ee70958a82f796cb8f4d2990d31fa8976d21adaa3f437958acc4152402f2e1",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 878,
+          "end": 901,
+          "quote": "Конкременты не выявлены"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-044",
+    "split": "dev",
+    "text_sha256": "61d62e1768fbadc00bce2e193cf34438486949cafaea273ea87d768479b4341b",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 966,
+          "end": 1005,
+          "quote": "конкрементов достоверно не определяется"
+        }
+      },
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 2041,
+          "end": 2063,
+          "quote": "полипа желчного пузыря"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-045",
+    "split": "test",
+    "text_sha256": "4c7a4005aeceae24872bb6ee5a3b90915e9f8a6942f2d75c208b5425682e4244",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 862,
+          "end": 889,
+          "quote": "Конкременты - не лоцируются"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-046",
+    "split": "dev",
+    "text_sha256": "831a398cdf92d690c73731c687eecd0b2eac30260adcef4f20d0424fc6458e97",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 880,
+          "end": 904,
+          "quote": "Конкременты: не выявлено"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-047",
+    "split": "dev",
+    "text_sha256": "704cb20295e21a71f67c7fe9aeaa21276bb2390a320b2a05b4c08e9ec2d79df0",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 857,
+          "end": 873,
+          "quote": "Конкременты: нет"
+        }
+      },
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1834,
+          "end": 1855,
+          "quote": "Полип желчного пузыря"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-048",
+    "split": "test",
+    "text_sha256": "e1750ef3b916e2fcc12961676b385f6ea92578ffa8e620f87048ba8cd5b274ae",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 946,
+          "end": 962,
+          "quote": "Конкременты: нет"
+        }
+      },
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1814,
+          "end": 1855,
+          "quote": "Полип в желчном пузыре небольших размеров"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-049",
+    "split": "dev",
+    "text_sha256": "d95e0473d5478cc6135d54490d8336526719ef84a30366e00a889f1cecee4317",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 607,
+          "end": 634,
+          "quote": "конкременты не определяются"
+        }
+      },
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1286,
+          "end": 1308,
+          "quote": "полипа желчного пузыря"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-050",
+    "split": "dev",
+    "text_sha256": "367276ca419dd5fb2d4af97c627feb3695f9a0e5bb6a24bf12b053ca48a84f91",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1109,
+          "end": 1147,
+          "quote": "хронического калькулезного холецистита"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Хирург"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-051",
+    "split": "test",
+    "text_sha256": "2c9e35c0737099dae41f8eccd8759cf3b96ba58b520c9f7c955266b7e0015414",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1936,
+          "end": 1974,
+          "quote": "хронического калькулезного холецистита"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Хирург"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-052",
+    "split": "dev",
+    "text_sha256": "f6e7875b21eda5325e51a8b72d4376959cb9b1c746c237af18f0fdd78a05764a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_polyp",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1611,
+          "end": 1645,
+          "quote": "Полипоз и холестаз желчного пузыря"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-053",
+    "split": "dev",
+    "text_sha256": "deb5e39539c01d541b08957d16e70407b180b871fbf274b0761747391f8cb175",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 865,
+          "end": 894,
+          "quote": "конкременты - не определяются"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-054",
+    "split": "test",
+    "text_sha256": "faa55327e8e965856f48b3e4253f3608f7681adde2dfa4b94403355c3d5fff9d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Почти дубликат ЖП (5); оба файла в одном тестовом разбиении."
+  },
+  {
+    "id": "doc-055",
+    "split": "test",
+    "text_sha256": "faa55327e8e965856f48b3e4253f3608f7681adde2dfa4b94403355c3d5fff9d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Почти дубликат ЖП (4); оба файла в одном тестовом разбиении."
+  },
+  {
+    "id": "doc-056",
+    "split": "dev",
+    "text_sha256": "0ec9a56bb9707862d20e986cc6a22449bf45457883b440317fd78d598feb9b0a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "gallbladder_stone",
+        "assertion": "negated",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 765,
+          "end": 782,
+          "quote": "Конкременты - нет"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-057",
+    "split": "dev",
+    "text_sha256": "222f32a9754425d38029209db087124a811b92766eceab74dc8a956601689d4d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-058",
+    "split": "test",
+    "text_sha256": "0dacd55902ccc9ea0741cb354d90a96ad1f452a4915051037bfb041fc5afeeb9",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-059",
+    "split": "dev",
+    "text_sha256": "e7fe389a33b234d5f3185cd523358740b3269c2d1ae97180b17de560f08e43f0",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-060",
+    "split": "dev",
+    "text_sha256": "eaf6413da106ef8094cd487b0181e9472af11fe1f49c3e9ce8b595f25748cd25",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Очаговое образование и фиброаденома? без BI-RADS. Категорию не выдумывать, передать персоналу."
+  },
+  {
+    "id": "doc-061",
+    "split": "test",
+    "text_sha256": "d893d0acfe303fc5baf1ab3b82f64a03e17adf7613be82dcdc4b3239fcb0eac2",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "uncertain",
+        "category": "2",
+        "side": null,
+        "evidence": {
+          "start": 818,
+          "end": 821,
+          "quote": "Br2"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Br2 — неоднозначное сокращение. Предполагаемая категория 2 сохраняется как uncertain, без маршрута."
+  },
+  {
+    "id": "doc-062",
+    "split": "dev",
+    "text_sha256": "69c5526774a0621b3a9aef7042e1cf5e5014a1e573286ed7104174ffb6e601b7",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "3",
+        "side": "right",
+        "evidence": {
+          "start": 1714,
+          "end": 1741,
+          "quote": "Правая мол.железа Bi-RADS 3"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "3",
+        "side": "left",
+        "evidence": {
+          "start": 1743,
+          "end": 1769,
+          "quote": "Левая мол.железа Bi-RADS 3"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Маммолог / онколог"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-063",
+    "split": "dev",
+    "text_sha256": "026f02654b3443df953c155c23826acdd95c9b68d9a17265c4f782cf09d1dbe8",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "1",
+        "side": "right",
+        "evidence": {
+          "start": 1253,
+          "end": 1297,
+          "quote": "Категория BI-RADS 1 (правая молочная железа)"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "4",
+        "side": "left",
+        "evidence": {
+          "start": 1298,
+          "end": 1341,
+          "quote": "Категория BI-RADS 4 (левая молочная железа)"
+        }
+      }
+    ],
+    "expected_decision": "consultation",
+    "expected_profiles": [
+      "Маммолог / онколог"
+    ],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "BI-RADS 1 справа и 4 слева. Не распространять отрицание объёмных образований на категории."
+  },
+  {
+    "id": "doc-064",
+    "split": "test",
+    "text_sha256": "bcaf57e9e118edd71fc2ac982520120473d4c7ae2f6de6bd0ee4580e60a8b295",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "1",
+        "side": "right",
+        "evidence": {
+          "start": 947,
+          "end": 991,
+          "quote": "Категория BI-RADS 1 (правая молочная железа)"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "1",
+        "side": "left",
+        "evidence": {
+          "start": 992,
+          "end": 1035,
+          "quote": "Категория BI-RADS 1 (левая молочная железа)"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "BI-RADS 1 с двух сторон и рекомендация маммолога. Шаблонная рекомендация не является целевым триггером."
+  },
+  {
+    "id": "doc-065",
+    "split": "dev",
+    "text_sha256": "7796cb396acc4c06f91f5df50fc2b74f8bc861905bc0d26928b12c54a332fabf",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-066",
+    "split": "dev",
+    "text_sha256": "ec06066419b68ebd82d6bb8842ad0a10a19dc002ce16bf5d3cbc1285df9827d0",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "2",
+        "side": null,
+        "evidence": {
+          "start": 1119,
+          "end": 1137,
+          "quote": "категория Birads 2"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "BI-RADS 2 без стороны; не распространять на обе стороны. Послеоперационный контекст не отменяет указанную текущую категорию."
+  },
+  {
+    "id": "doc-067",
+    "split": "test",
+    "text_sha256": "91023c7c463e3a5b5f551858a27cf105744e4e4720916304465a3f719e673463",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "1",
+        "side": "right",
+        "evidence": {
+          "start": 689,
+          "end": 705,
+          "quote": "Справа BI-RADS 1"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "1",
+        "side": "left",
+        "evidence": {
+          "start": 707,
+          "end": 722,
+          "quote": "слева BI-RADS 1"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-068",
+    "split": "dev",
+    "text_sha256": "6aad5e54fe1668686244e8d58e814d2d36bfcd5538b18a799e5b8795db79b440",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "2",
+        "side": "right",
+        "evidence": {
+          "start": 723,
+          "end": 739,
+          "quote": "BI-RADS справа 2"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "2",
+        "side": "left",
+        "evidence": {
+          "start": 742,
+          "end": 749,
+          "quote": "слева 2"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-069",
+    "split": "dev",
+    "text_sha256": "1c1e9867443130916db345976a46e3f48d55179d038ef2e4df9014c8abda6b55",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "2",
+        "side": "right",
+        "evidence": {
+          "start": 978,
+          "end": 1021,
+          "quote": "Правая молочная железа: категория BI-RADS 2"
+        }
+      },
+      {
+        "concept": "birads",
+        "assertion": "affirmed",
+        "category": "2",
+        "side": "left",
+        "evidence": {
+          "start": 1023,
+          "end": 1065,
+          "quote": "Левая молочная железа: категория BI-RADS 2"
+        }
+      }
+    ],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-070",
+    "split": "test",
+    "text_sha256": "42cba80bd255a7a4750330c1678352b4be1d44bc7f706358014cda933c6fd9c9",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-071",
+    "split": "dev",
+    "text_sha256": "aea549642e6a37707123cee657b1a430bbe2b3c8e3a3cda087e1e185c97b1b9b",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1039,
+          "end": 1057,
+          "quote": "узловой формы ДГПЖ"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-072",
+    "split": "dev",
+    "text_sha256": "35b570850672aec232dec9e60cca8fcaf8e6dbd57b76c95d473e8ef19583dfe2",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1011,
+          "end": 1038,
+          "quote": "Хронический простатит. ДГПЖ"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-073",
+    "split": "test",
+    "text_sha256": "a8ed6c775a437a586497b0c76339913de36234bcd2206560b47acb13cdc1e0eb",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 962,
+          "end": 1015,
+          "quote": "гиперплазии и увеличения объема предстательной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-074",
+    "split": "dev",
+    "text_sha256": "ec42b14284a851ef18864bcf2bcb0a1fd2800201fbc1deb0f6e9d65854b6e1b7",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 986,
+          "end": 1002,
+          "quote": "УЗ-признаки ДГПЖ"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-075",
+    "split": "dev",
+    "text_sha256": "dd3ca13be770cead330bf1f2196c86013409530e28777c81f7777bb36ada5892",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1139,
+          "end": 1179,
+          "quote": "ГИПЕРПЛАЗИЯ ПЕРЕХОДНЫХ ЗОН: определяется"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-076",
+    "split": "test",
+    "text_sha256": "d70b8e862efa063ae7765cb491183ed2f4de6e8e1121704e62c3e0249771d447",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 795,
+          "end": 828,
+          "quote": "Гиперплазия предстательной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-077",
+    "split": "dev",
+    "text_sha256": "89e3169f9a86a5084f65fba569c5bfc2433b7e137c0777a530a2a543ad415c9a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 609,
+          "end": 685,
+          "quote": "УЗ-признаки гиперплазии, диффузных изменений структуры предстательной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-078",
+    "split": "dev",
+    "text_sha256": "7a16f054cf88f7b63672c9f96c43341cd83345b4a76fa6c4bb5dcffab91256f6",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1675,
+          "end": 1687,
+          "quote": "по типу ДГПЖ"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-079",
+    "split": "test",
+    "text_sha256": "0a526d79000377e53e95b0e0b447bca4507fc472b2be2ade4aeb346090bbeb99",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "prostate_hyperplasia",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 1095,
+          "end": 1111,
+          "quote": "аденома простаты"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-080",
+    "split": "dev",
+    "text_sha256": "078b0a107ba3333f768fafb7908340ef193e5fa0e322802161e68a2eea9bbcb4",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 827,
+          "end": 867,
+          "quote": "Ультразвуковые признаки узлов левой доли"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-081",
+    "split": "dev",
+    "text_sha256": "92a9bff735f9af78518e12c15110e49c819256b77e8a77dcecea1c3f38ab533f",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Расширенные фолликулы не размечены как узлы."
+  },
+  {
+    "id": "doc-082",
+    "split": "test",
+    "text_sha256": "96b2e46196af4d871f86ac23cdfa06ba0688c8c63efdb2ef3fc1f0c26be938c6",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 973,
+          "end": 1009,
+          "quote": "Узловой зоб .Узел правой доли железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-083",
+    "split": "dev",
+    "text_sha256": "d3867517204f3ac993d35fe8e0ab1bf31d9074264357b4787b61719801909786",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 821,
+          "end": 857,
+          "quote": "Узлы в обеих долях щитовидной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-084",
+    "split": "dev",
+    "text_sha256": "7babc457dd7c13951201de7477380d9d792b0e828b04166c4dee1b38271d874c",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 644,
+          "end": 668,
+          "quote": "Узлы в щитовидной железе"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-085",
+    "split": "test",
+    "text_sha256": "b571da6464201a10ee1c1708a82d5b92632a076c72494e1049817c8ffa2ac40a",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 969,
+          "end": 1018,
+          "quote": "узловых образований обеих долей щитовидной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-086",
+    "split": "dev",
+    "text_sha256": "2dd619bfcece76dbba4faf62a67903c3491cc6951c4d3c48a513a4d55767e39e",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 804,
+          "end": 877,
+          "quote": "Узловое образование, единичный макрофолликул левой доли щитовидной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-087",
+    "split": "dev",
+    "text_sha256": "da4b5ee7ee6ab79735c89744041adf2daeb87ecb3c60315bc8c732bfdc3ad039",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Категория TI-RADS 2 не является BI-RADS и сама по себе не доказывает наличие узла."
+  },
+  {
+    "id": "doc-088",
+    "split": "test",
+    "text_sha256": "4998778998e137d186d225a2b84a871c8ee1d2e35ef0b08db32d4cc41dd16a0d",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [
+      {
+        "concept": "thyroid_nodule",
+        "assertion": "affirmed",
+        "category": null,
+        "side": null,
+        "evidence": {
+          "start": 697,
+          "end": 748,
+          "quote": "мелкого губчатого узла левой доли щитовидной железы"
+        }
+      }
+    ],
+    "expected_decision": "manual_review",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Проверено в рамках десяти целевых признаков; отсутствие метки не означает клиническую норму."
+  },
+  {
+    "id": "doc-089",
+    "split": "dev",
+    "text_sha256": "fde2fff206dd7497ec95c2ec31771445889b530752172efdecb3bdca0e978352",
+    "annotation_status": "draft_ai_reviewed_not_clinically_validated",
+    "annotation_method": "Direct document reading; manual labels and quotations; no extractor output used",
+    "facts": [],
+    "expected_decision": "no_supported_trigger",
+    "expected_profiles": [],
+    "unmentioned_concepts": [
+      "endometrial_polyp",
+      "uterine_fibroid",
+      "gallbladder_stone",
+      "gallbladder_polyp",
+      "birads",
+      "thyroid_nodule",
+      "prostate_hyperplasia",
+      "varicose_veins",
+      "arterial_atherosclerosis",
+      "venous_thrombosis"
+    ],
+    "notes": "Псевдоузлы и лимфоузлы не являются целевой меткой узла щитовидной железы."
+  }
+]

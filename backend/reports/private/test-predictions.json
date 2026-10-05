@@ -1,0 +1,2071 @@
+[
+  {
+    "id": "doc-002",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "vascular",
+      "facts": [
+        {
+          "concept": "arterial_atherosclerosis",
+          "label": "Атеросклероз артерий ног",
+          "organ": "Артерии нижних конечностей",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 1498,
+            "end": 1548,
+            "quote": "ЗАКЛЮЧЕНИЕ: Данные за нестенозирующий атеросклероз"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "arterial_atherosclerosis",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1536,
+                "end": 1548,
+                "quote": "атеросклероз"
+              },
+              "evidence": {
+                "start": 1498,
+                "end": 1548,
+                "quote": "ЗАКЛЮЧЕНИЕ: Данные за нестенозирующий атеросклероз"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Атеросклероз артерий ног: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-004",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "vascular",
+      "facts": [
+        {
+          "concept": "varicose_veins",
+          "label": "Варикоз вен нижних конечностей",
+          "organ": "Вены нижних конечностей",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 2123,
+            "end": 2162,
+            "quote": "Варикозная трансформация хода левой БПВ"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "varicose_veins",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 2123,
+                "end": 2147,
+                "quote": "Варикозная трансформация"
+              },
+              "evidence": {
+                "start": 2123,
+                "end": 2162,
+                "quote": "Варикозная трансформация хода левой БПВ"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Варикоз вен нижних конечностей: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-007",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "vascular",
+      "facts": [
+        {
+          "concept": "varicose_veins",
+          "label": "Варикоз вен нижних конечностей",
+          "organ": "Вены нижних конечностей",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 998,
+            "end": 1099,
+            "quote": "Поверхностные вены: БПВ -ствол расширен более 6мм с варикозными притоками более 4мм, МПВ не расширена"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "varicose_veins",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1050,
+                "end": 1071,
+                "quote": "варикозными притоками"
+              },
+              "evidence": {
+                "start": 998,
+                "end": 1099,
+                "quote": "Поверхностные вены: БПВ -ствол расширен более 6мм с варикозными притоками более 4мм, МПВ не расширена"
+              }
+            },
+            {
+              "concept": "varicose_veins",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1211,
+                "end": 1236,
+                "quote": "варикозной трансформацией"
+              },
+              "evidence": {
+                "start": 1162,
+                "end": 1254,
+                "quote": "Заключение: Несостоятельность ствола БПВ слева с варикозной трансформацией притоков и ствола"
+              }
+            }
+          ]
+        },
+        {
+          "concept": "venous_thrombosis",
+          "label": "Упоминание венозного тромбоза",
+          "organ": "Вены нижних конечностей",
+          "assertion": "negated",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 1255,
+            "end": 1356,
+            "quote": " Данных за тромбоз поверхностных и глубоких вен нижних конечностей на момент исследования не получено"
+          },
+          "reason": "Данных за находку не получено",
+          "mentions": [
+            {
+              "concept": "venous_thrombosis",
+              "assertion": "negated",
+              "category": null,
+              "side": null,
+              "reason": "Данных за находку не получено",
+              "keyword": {
+                "start": 1266,
+                "end": 1273,
+                "quote": "тромбоз"
+              },
+              "evidence": {
+                "start": 1255,
+                "end": 1356,
+                "quote": " Данных за тромбоз поверхностных и глубоких вен нижних конечностей на момент исследования не получено"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "arterial_atherosclerosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Варикоз вен нижних конечностей: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-011",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [
+        {
+          "concept": "uterine_fibroid",
+          "label": "Миома матки",
+          "organ": "Матка",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 717,
+            "end": 782,
+            "quote": "УЗ признаки миомы матки , снижения овариального резерва яичников "
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "uterine_fibroid",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 729,
+                "end": 734,
+                "quote": "миомы"
+              },
+              "evidence": {
+                "start": 717,
+                "end": 782,
+                "quote": "УЗ признаки миомы матки , снижения овариального резерва яичников "
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Миома матки: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-013",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-016",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-019",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-022",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [
+        {
+          "concept": "uterine_fibroid",
+          "label": "Миома матки",
+          "organ": "Матка",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 1295,
+            "end": 1338,
+            "quote": "Заключение: Миома матки в стадии кальциноза"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "uterine_fibroid",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1307,
+                "end": 1312,
+                "quote": "Миома"
+              },
+              "evidence": {
+                "start": 1295,
+                "end": 1338,
+                "quote": "Заключение: Миома матки в стадии кальциноза"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Миома матки: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-025",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [
+        {
+          "concept": "endometrial_polyp",
+          "label": "Полип эндометрия",
+          "organ": "Эндометрий",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 1268,
+            "end": 1372,
+            "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки полипа эндометрия, полипа шейки матки? Категория O-RADS I справа, O-RADS I слева"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "endometrial_polyp",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1292,
+                "end": 1309,
+                "quote": "полипа эндометрия"
+              },
+              "evidence": {
+                "start": 1268,
+                "end": 1372,
+                "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки полипа эндометрия, полипа шейки матки? Категория O-RADS I справа, O-RADS I слева"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "consultation",
+      "proposals": [
+        {
+          "id": "endometrial-polyp",
+          "concept": "endometrial_polyp",
+          "profile": "Оперирующий гинеколог",
+          "action": "Консультация для определения дальнейшей тактики",
+          "due_days": 7,
+          "rule_version": "demo-2026-10-04-v1",
+          "evidence": {
+            "start": 1268,
+            "end": 1372,
+            "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки полипа эндометрия, полипа шейки матки? Категория O-RADS I справа, O-RADS I слева"
+          },
+          "category": null,
+          "side": null
+        }
+      ],
+      "profiles": [
+        "Оперирующий гинеколог"
+      ],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-028",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-031",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [
+        {
+          "concept": "uterine_fibroid",
+          "label": "Миома матки",
+          "organ": "Матка",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 632,
+            "end": 833,
+            "quote": "1) в теле по задней стенке ближе ко дну в структуре миометрия - гипоэхогенное округлое образование (при ЦДК без особенностей), размерами до 1.4*1.1*1.5 см — интрамуральная миома малых размеров, FIGO 4."
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "uterine_fibroid",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 804,
+                "end": 809,
+                "quote": "миома"
+              },
+              "evidence": {
+                "start": 632,
+                "end": 833,
+                "quote": "1) в теле по задней стенке ближе ко дну в структуре миометрия - гипоэхогенное округлое образование (при ЦДК без особенностей), размерами до 1.4*1.1*1.5 см — интрамуральная миома малых размеров, FIGO 4."
+              }
+            },
+            {
+              "concept": "uterine_fibroid",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 2637,
+                "end": 2642,
+                "quote": "миома"
+              },
+              "evidence": {
+                "start": 2520,
+                "end": 2715,
+                "quote": " УЗ- признаки 1 фазы менструального цикла, диффузных изменений миометрия по типу аденомиоза (в теле - интрамуральная миома малых размеров, FIGO 4), также нельзя исключить патологию эндометрия (см"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Миома матки: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-034",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "pelvis",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-036",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-039",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [
+        {
+          "concept": "gallbladder_stone",
+          "label": "Конкременты желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 630,
+            "end": 682,
+            "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки конкрементов желчного пузыря"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "gallbladder_stone",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 654,
+                "end": 666,
+                "quote": "конкрементов"
+              },
+              "evidence": {
+                "start": 630,
+                "end": 682,
+                "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки конкрементов желчного пузыря"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "consultation",
+      "proposals": [
+        {
+          "id": "gallbladder-stone",
+          "concept": "gallbladder_stone",
+          "profile": "Хирург",
+          "action": "Консультация для определения дальнейшей тактики",
+          "due_days": null,
+          "rule_version": "demo-2026-10-04-v1",
+          "evidence": {
+            "start": 630,
+            "end": 682,
+            "quote": "ЗАКЛЮЧЕНИЕ: УЗ-признаки конкрементов желчного пузыря"
+          },
+          "category": null,
+          "side": null
+        }
+      ],
+      "profiles": [
+        "Хирург"
+      ],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-042",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [
+        {
+          "concept": "gallbladder_polyp",
+          "label": "Полип желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 175,
+            "end": 312,
+            "quote": "в просвете пристеночно лоцируется одно неподвижное образование повышенной эхогенности , без акустической тени, размером 3,6*3,5 мм -полип"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "gallbladder_polyp",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 307,
+                "end": 312,
+                "quote": "полип"
+              },
+              "evidence": {
+                "start": 175,
+                "end": 312,
+                "quote": "в просвете пристеночно лоцируется одно неподвижное образование повышенной эхогенности , без акустической тени, размером 3,6*3,5 мм -полип"
+              }
+            },
+            {
+              "concept": "gallbladder_polyp",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 369,
+                "end": 374,
+                "quote": "полип"
+              },
+              "evidence": {
+                "start": 327,
+                "end": 419,
+                "quote": "ЗАКЛЮЧЕНИЕ: Образование в желчном пузыре- полип (без динамики по сравнению с УЗИ от 01.2026)"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Полип желчного пузыря: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-045",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [
+        {
+          "concept": "gallbladder_stone",
+          "label": "Конкременты желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "negated",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 862,
+            "end": 889,
+            "quote": "Конкременты - не лоцируются"
+          },
+          "reason": "Отрицание после упоминания",
+          "mentions": [
+            {
+              "concept": "gallbladder_stone",
+              "assertion": "negated",
+              "category": null,
+              "side": null,
+              "reason": "Отрицание после упоминания",
+              "keyword": {
+                "start": 862,
+                "end": 873,
+                "quote": "Конкременты"
+              },
+              "evidence": {
+                "start": 862,
+                "end": 889,
+                "quote": "Конкременты - не лоцируются"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-048",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [
+        {
+          "concept": "gallbladder_stone",
+          "label": "Конкременты желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "negated",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 946,
+            "end": 962,
+            "quote": "Конкременты: нет"
+          },
+          "reason": "Отрицание после упоминания",
+          "mentions": [
+            {
+              "concept": "gallbladder_stone",
+              "assertion": "negated",
+              "category": null,
+              "side": null,
+              "reason": "Отрицание после упоминания",
+              "keyword": {
+                "start": 946,
+                "end": 957,
+                "quote": "Конкременты"
+              },
+              "evidence": {
+                "start": 946,
+                "end": 962,
+                "quote": "Конкременты: нет"
+              }
+            }
+          ]
+        },
+        {
+          "concept": "gallbladder_polyp",
+          "label": "Полип желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 1813,
+            "end": 1855,
+            "quote": " Полип в желчном пузыре небольших размеров"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "gallbladder_polyp",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1814,
+                "end": 1819,
+                "quote": "Полип"
+              },
+              "evidence": {
+                "start": 1813,
+                "end": 1855,
+                "quote": " Полип в желчном пузыре небольших размеров"
+              }
+            },
+            {
+              "concept": "gallbladder_polyp",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1887,
+                "end": 1892,
+                "quote": "Полип"
+              },
+              "evidence": {
+                "start": 1886,
+                "end": 1928,
+                "quote": " Полип в желчном пузыре небольших размеров"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Полип желчного пузыря: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-051",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [
+        {
+          "concept": "gallbladder_stone",
+          "label": "Конкременты желчного пузыря",
+          "organ": "Желчный пузырь",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 923,
+            "end": 1050,
+            "quote": " Конкременты: в полости ближе к дну полость представлена гиперэхогенными включениями от 4мм до 12мм с четкой акустической тенью"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "gallbladder_stone",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 924,
+                "end": 935,
+                "quote": "Конкременты"
+              },
+              "evidence": {
+                "start": 923,
+                "end": 1050,
+                "quote": " Конкременты: в полости ближе к дну полость представлена гиперэхогенными включениями от 4мм до 12мм с четкой акустической тенью"
+              }
+            },
+            {
+              "concept": "gallbladder_stone",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1949,
+                "end": 1974,
+                "quote": "калькулезного холецистита"
+              },
+              "evidence": {
+                "start": 1911,
+                "end": 2022,
+                "quote": " Заключение: УЗ-признаки хронического калькулезного холецистита, деформации желчного пузыря (полость разделена)"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "consultation",
+      "proposals": [
+        {
+          "id": "gallbladder-stone",
+          "concept": "gallbladder_stone",
+          "profile": "Хирург",
+          "action": "Консультация для определения дальнейшей тактики",
+          "due_days": null,
+          "rule_version": "demo-2026-10-04-v1",
+          "evidence": {
+            "start": 923,
+            "end": 1050,
+            "quote": " Конкременты: в полости ближе к дну полость представлена гиперэхогенными включениями от 4мм до 12мм с четкой акустической тенью"
+          },
+          "category": null,
+          "side": null
+        }
+      ],
+      "profiles": [
+        "Хирург"
+      ],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-054",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-055",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-058",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "abdominal",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-061",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "breast",
+      "facts": [
+        {
+          "concept": "birads",
+          "label": "Категория BI-RADS",
+          "organ": "Молочная железа",
+          "assertion": "uncertain",
+          "category": "2",
+          "side": null,
+          "evidence": {
+            "start": 818,
+            "end": 821,
+            "quote": "Br2"
+          },
+          "reason": "Неоднозначное сокращение BR; требуется проверка",
+          "mentions": [
+            {
+              "concept": "birads",
+              "assertion": "uncertain",
+              "side": null,
+              "category": "2",
+              "reason": "Неоднозначное сокращение BR; требуется проверка",
+              "evidence": {
+                "start": 818,
+                "end": 821,
+                "quote": "Br2"
+              },
+              "keyword": {
+                "start": 818,
+                "end": 821,
+                "quote": "Br2"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Категория BI-RADS: uncertain; требуется проверка персоналом"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-064",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "breast",
+      "facts": [
+        {
+          "concept": "birads",
+          "label": "Категория BI-RADS",
+          "organ": "Молочная железа",
+          "assertion": "affirmed",
+          "category": "1",
+          "side": "right",
+          "evidence": {
+            "start": 947,
+            "end": 991,
+            "quote": "Категория BI-RADS 1 (правая молочная железа)"
+          },
+          "reason": "Явно указана категория BI-RADS",
+          "mentions": [
+            {
+              "concept": "birads",
+              "assertion": "affirmed",
+              "side": "right",
+              "category": "1",
+              "reason": "Явно указана категория BI-RADS",
+              "evidence": {
+                "start": 947,
+                "end": 991,
+                "quote": "Категория BI-RADS 1 (правая молочная железа)"
+              },
+              "keyword": {
+                "start": 957,
+                "end": 966,
+                "quote": "BI-RADS 1"
+              }
+            }
+          ]
+        },
+        {
+          "concept": "birads",
+          "label": "Категория BI-RADS",
+          "organ": "Молочная железа",
+          "assertion": "affirmed",
+          "category": "1",
+          "side": "left",
+          "evidence": {
+            "start": 992,
+            "end": 1035,
+            "quote": "Категория BI-RADS 1 (левая молочная железа)"
+          },
+          "reason": "Явно указана категория BI-RADS",
+          "mentions": [
+            {
+              "concept": "birads",
+              "assertion": "affirmed",
+              "side": "left",
+              "category": "1",
+              "reason": "Явно указана категория BI-RADS",
+              "evidence": {
+                "start": 992,
+                "end": 1035,
+                "quote": "Категория BI-RADS 1 (левая молочная железа)"
+              },
+              "keyword": {
+                "start": 1002,
+                "end": 1011,
+                "quote": "BI-RADS 1"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-067",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "breast",
+      "facts": [
+        {
+          "concept": "birads",
+          "label": "Категория BI-RADS",
+          "organ": "Молочная железа",
+          "assertion": "affirmed",
+          "category": "1",
+          "side": "right",
+          "evidence": {
+            "start": 689,
+            "end": 705,
+            "quote": "Справа BI-RADS 1"
+          },
+          "reason": "Явно указана категория BI-RADS",
+          "mentions": [
+            {
+              "concept": "birads",
+              "assertion": "affirmed",
+              "side": "right",
+              "category": "1",
+              "reason": "Явно указана категория BI-RADS",
+              "evidence": {
+                "start": 689,
+                "end": 705,
+                "quote": "Справа BI-RADS 1"
+              },
+              "keyword": {
+                "start": 696,
+                "end": 705,
+                "quote": "BI-RADS 1"
+              }
+            }
+          ]
+        },
+        {
+          "concept": "birads",
+          "label": "Категория BI-RADS",
+          "organ": "Молочная железа",
+          "assertion": "affirmed",
+          "category": "1",
+          "side": "left",
+          "evidence": {
+            "start": 689,
+            "end": 722,
+            "quote": "Справа BI-RADS 1, слева BI-RADS 1"
+          },
+          "reason": "Явно указана категория BI-RADS",
+          "mentions": [
+            {
+              "concept": "birads",
+              "assertion": "affirmed",
+              "side": "left",
+              "category": "1",
+              "reason": "Явно указана категория BI-RADS",
+              "evidence": {
+                "start": 689,
+                "end": 722,
+                "quote": "Справа BI-RADS 1, слева BI-RADS 1"
+              },
+              "keyword": {
+                "start": 713,
+                "end": 722,
+                "quote": "BI-RADS 1"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-070",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "prostate",
+      "facts": [],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "no_supported_trigger",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-073",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "prostate",
+      "facts": [
+        {
+          "concept": "prostate_hyperplasia",
+          "label": "Гиперплазия предстательной железы",
+          "organ": "Предстательная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 201,
+            "end": 314,
+            "quote": " Переходные отделы утолщены за счёт аденоматозных узлов размерами справа 37х35 мм, слева - 20х16 мм, неоднородные"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "prostate_hyperplasia",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 237,
+                "end": 256,
+                "quote": "аденоматозных узлов"
+              },
+              "evidence": {
+                "start": 201,
+                "end": 314,
+                "quote": " Переходные отделы утолщены за счёт аденоматозных узлов размерами справа 37х35 мм, слева - 20х16 мм, неоднородные"
+              }
+            },
+            {
+              "concept": "prostate_hyperplasia",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 962,
+                "end": 973,
+                "quote": "гиперплазии"
+              },
+              "evidence": {
+                "start": 865,
+                "end": 1015,
+                "quote": "УЗ признаки диффузных изменений паренхимы предстательной железы по типу хронического простатита, гиперплазии и увеличения объема предстательной железы"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Гиперплазия предстательной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-076",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "prostate",
+      "facts": [
+        {
+          "concept": "prostate_hyperplasia",
+          "label": "Гиперплазия предстательной железы",
+          "organ": "Предстательная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 794,
+            "end": 828,
+            "quote": " Гиперплазия предстательной железы"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "prostate_hyperplasia",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 795,
+                "end": 806,
+                "quote": "Гиперплазия"
+              },
+              "evidence": {
+                "start": 794,
+                "end": 828,
+                "quote": " Гиперплазия предстательной железы"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Гиперплазия предстательной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-079",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "prostate",
+      "facts": [
+        {
+          "concept": "prostate_hyperplasia",
+          "label": "Гиперплазия предстательной железы",
+          "organ": "Предстательная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 285,
+            "end": 446,
+            "quote": "В транзитоной зоне визуализируются несколько асимметричных размеров (d<s) аденоматозные узлы за счет боковых долей, разерами по 33х20х38 мм, объемом по 13,1 см3."
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "prostate_hyperplasia",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 359,
+                "end": 377,
+                "quote": "аденоматозные узлы"
+              },
+              "evidence": {
+                "start": 285,
+                "end": 446,
+                "quote": "В транзитоной зоне визуализируются несколько асимметричных размеров (d<s) аденоматозные узлы за счет боковых долей, разерами по 33х20х38 мм, объемом по 13,1 см3."
+              }
+            },
+            {
+              "concept": "prostate_hyperplasia",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 1095,
+                "end": 1111,
+                "quote": "аденома простаты"
+              },
+              "evidence": {
+                "start": 996,
+                "end": 1112,
+                "quote": "ЗАКЛЮЧЕНИЕ: Эхографические признаки увеличения объема предстательной железы за счет боковых долей (аденома простаты)"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "thyroid_nodule",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Гиперплазия предстательной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-082",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "thyroid",
+      "facts": [
+        {
+          "concept": "thyroid_nodule",
+          "label": "Узел щитовидной железы",
+          "organ": "Щитовидная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 848,
+            "end": 908,
+            "quote": "Л/узлы по ходу сосудистых пучков справа и слева не увеличены"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 850,
+                "end": 854,
+                "quote": "узлы"
+              },
+              "evidence": {
+                "start": 848,
+                "end": 908,
+                "quote": "Л/узлы по ходу сосудистых пучков справа и слева не увеличены"
+              }
+            },
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 973,
+                "end": 984,
+                "quote": "Узловой зоб"
+              },
+              "evidence": {
+                "start": 973,
+                "end": 985,
+                "quote": "Узловой зоб "
+              }
+            },
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 986,
+                "end": 990,
+                "quote": "Узел"
+              },
+              "evidence": {
+                "start": 986,
+                "end": 1009,
+                "quote": "Узел правой доли железы"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Узел щитовидной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-085",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "thyroid",
+      "facts": [
+        {
+          "concept": "thyroid_nodule",
+          "label": "Узел щитовидной железы",
+          "organ": "Щитовидная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 957,
+            "end": 1018,
+            "quote": "УЗ признаки узловых образований обеих долей щитовидной железы"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 969,
+                "end": 988,
+                "quote": "узловых образований"
+              },
+              "evidence": {
+                "start": 957,
+                "end": 1018,
+                "quote": "УЗ признаки узловых образований обеих долей щитовидной железы"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Узел щитовидной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  },
+  {
+    "id": "doc-088",
+    "split": "test",
+    "analysis": {
+      "engine": "rules-nlp-0.1",
+      "study_type": "thyroid",
+      "facts": [
+        {
+          "concept": "thyroid_nodule",
+          "label": "Узел щитовидной железы",
+          "organ": "Щитовидная железа",
+          "assertion": "affirmed",
+          "category": null,
+          "side": null,
+          "evidence": {
+            "start": 451,
+            "end": 545,
+            "quote": " В нижнем полюсе левой доли ближе к перешейку губчатый узел 3,3х2,3 мм, при ЦДК - аваскулярный"
+          },
+          "reason": "Находка утверждается в тексте",
+          "mentions": [
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 506,
+                "end": 510,
+                "quote": "узел"
+              },
+              "evidence": {
+                "start": 451,
+                "end": 545,
+                "quote": " В нижнем полюсе левой доли ближе к перешейку губчатый узел 3,3х2,3 мм, при ЦДК - аваскулярный"
+              }
+            },
+            {
+              "concept": "thyroid_nodule",
+              "assertion": "affirmed",
+              "category": null,
+              "side": null,
+              "reason": "Находка утверждается в тексте",
+              "keyword": {
+                "start": 715,
+                "end": 719,
+                "quote": "узла"
+              },
+              "evidence": {
+                "start": 673,
+                "end": 748,
+                "quote": "Заключение: Уз-признаки мелкого губчатого узла левой доли щитовидной железы"
+              }
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "unmentioned_concepts": [
+        "endometrial_polyp",
+        "uterine_fibroid",
+        "gallbladder_stone",
+        "gallbladder_polyp",
+        "birads",
+        "prostate_hyperplasia",
+        "varicose_veins",
+        "arterial_atherosclerosis",
+        "venous_thrombosis"
+      ],
+      "scope_note": "Отсутствие целевого триггера не означает норму. Размеры автоматически не интерпретируются."
+    },
+    "routing": {
+      "decision": "manual_review",
+      "proposals": [],
+      "profiles": [],
+      "review_reasons": [
+        "Узел щитовидной железы: автоматическая матрица для этого признака ещё не утверждена"
+      ],
+      "rule_version": "demo-2026-10-04-v1",
+      "clinical_status": "demo_requires_medical_approval",
+      "notice": "Демонстрационные маршруты. Не диагноз и не назначение лечения."
+    }
+  }
+]
